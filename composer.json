@@ -1,12 +1,22 @@
 {
     "name": "bunhouth/socketcluster-connector",
     "type": "library",
+    "version": "1.0.0",
     "description": "socketcluster realtime connector for php",
     "autoload": {
         "psr-4": {
             "Bunhouth\\SocketclusterConnector\\": "src/"
         }
     },
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "keywords": [
+		"socket.io",
+		"websocket",
+		"ws",
+		"socketcluster",
+		"realtime"
+	],
     "authors": [
         {
             "name": "Bunhouth",
