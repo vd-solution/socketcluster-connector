@@ -5,7 +5,7 @@
     "description": "socketcluster realtime connector for php",
     "autoload": {
         "psr-4": {
-            "Bunhouth\\SocketclusterConnector\\": "src/"
+            "SocketclusterConnector\\": "src/"
         }
     },
     "minimum-stability": "stable",
