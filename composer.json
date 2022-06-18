@@ -1,11 +1,11 @@
 {
     "name": "bunhouth/socketcluster-connector",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "socketcluster realtime connector for php",
     "autoload": {
         "psr-4": {
-            "SocketclusterConnector\\": "src/"
+            "SocketConnector\\": "src/"
         }
     },
     "minimum-stability": "stable",

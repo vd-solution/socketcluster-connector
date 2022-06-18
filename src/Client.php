@@ -1,6 +1,6 @@
 <?php
 
-namespace SocketclusterConnector;
+namespace SocketConnector;
 
 class Client {
   public static function publish($apiKey, $channel, $payload) {
