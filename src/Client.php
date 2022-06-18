@@ -4,11 +4,12 @@ namespace SocketConnector;
 
 class Client {
   public static function publish($apiKey, $channel, $payload) {
-    $client = new \GuzzleHttp\Client([
-      'headers' => [ 'Content-Type' => 'application/json' ]
-    ]);
-
     try {
+      $client = new \GuzzleHttp\Client([
+        'headers' => [ 'Content-Type' => 'application/json' ],
+        'http_errors' => false
+      ]);
+
       $response = $client->post('https://socket.aasatech.asia/publish',
         ['body' => json_encode(
           [
